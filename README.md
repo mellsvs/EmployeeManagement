@@ -20,6 +20,8 @@ This project is a system that allows a business to manage its employees. It incl
 
 ## Installation
 
+-git clone https://github.com/mellsvs/EmployeeManagement
+
 1. **Backend Setup**:
    - Navigate to the `backend` directory.
    - Set up your PostgreSQL database and update the connection details in the `application.properties` file.
@@ -27,8 +29,9 @@ This project is a system that allows a business to manage its employees. It incl
 
 2. **Frontend Setup**:
    - Navigate to the `frontend` directory.
-   - Install dependencies using `npm install` or `yarn install`.
-   - Start the React application with `npm start` or `yarn start`.
+   - Install dependencies using `npm install vite --save-dev'.
+   - Start the React application with `npm run dev`.
+  
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
